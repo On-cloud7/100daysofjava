@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;// calculate and display sum of n nos
 public class program11 {
     public static void main(String[]args){
         int i, n , sum =0;
