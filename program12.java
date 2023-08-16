@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class program12 {
     public static void main(String[]args){
-        int i,n,sum=0;
+        int i,n;
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println(" Enter value of n");
             n=sc.nextInt();

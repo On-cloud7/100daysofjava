@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;// fibonacci
 public class program13{
     public static void main(String[]args){
         int i,n,a,b,c;
