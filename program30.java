@@ -2,9 +2,10 @@ import java.util.Scanner;
 public class program30 {
     public static void main(String[] args) {
         int i=2,n,sum=0;
-        Scanner sc =new Scanner (System.in);
-        System.out.println(" Enter the value of n");
-        n=sc.nextInt();
+        try (Scanner sc = new Scanner (System.in)) {
+            System.out.println(" Enter the value of n");
+            n=sc.nextInt();
+        }
         while (n%i!=0) {
             i++;
             
