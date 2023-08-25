@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class program30 {
+public class program30 {// prime no
     public static void main(String[] args) {
         int i=2,n,sum=0;
         try (Scanner sc = new Scanner (System.in)) {

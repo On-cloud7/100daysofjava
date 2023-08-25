@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class program31 {
+public class program31 { // print  prime no 
     public static void main(String[] args) {
         
     

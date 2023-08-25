@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class program29{
+public class program29{ // check divisibility
     public static void main(String[] args) {
         int sum=0,n;
         try (Scanner sc = new Scanner(System.in)) {
