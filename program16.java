@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class program16{// nested loops
     public static void main(String[]args){
         int i,j;

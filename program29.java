@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class program29{ // check divisibility
     public static void main(String[] args) {
-        int sum=0,n;
+        int n;
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println(" Enter value of n");
             n =sc.nextInt();

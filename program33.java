@@ -2,9 +2,10 @@ import java.util.Scanner;
 public class program33 {
     public static void main(String[] args) {
      int marks;
-     Scanner sc = new Scanner(System.in);
-     System.out.println(" Enter value ");
-     marks = sc.nextInt();
+     try (Scanner sc = new Scanner(System.in)) {
+        System.out.println(" Enter value ");
+         marks = sc.nextInt();
+    }
      if(marks>70){
         System.out.println(" DISTINCTION");
      }        
