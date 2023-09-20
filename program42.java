@@ -10,9 +10,7 @@ public class program42   {// write a program to find the largest no taken from u
                 System.out.println(" enter the no");
                 arr[i]=sc.nextInt();
             }
-            for(i=0;i<arr.length;i++){
-                System.out.println(arr[i]);
-            }
+           
             large =arr[0];
             for(i=0;i<arr.length;i++){
                 if(large<arr[i]);
