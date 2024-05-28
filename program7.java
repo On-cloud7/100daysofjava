@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;// calculate the largest number
 public class program7
  {
     public static void main(String[]args){
