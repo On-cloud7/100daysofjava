@@ -1,6 +1,7 @@
 import java.util.Scanner ;
 public class program51 {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner (System.in);
         System.out.println("enter the number 1:");
         int num1 = sc.nextInt();

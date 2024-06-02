@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class program56 {
     public static void main(String[] args) {
-       Scanner sc = new Scanner (System.in); 
+       try (Scanner sc = new Scanner (System.in)) {
         System.out.println(" enter the number:");
         int num = sc.nextInt();
         int sum=0;
@@ -17,6 +17,7 @@ public class program56 {
         else {
             System.out.println(" it is not a amstrong number ");
         }
+    }
     }
     
 }
